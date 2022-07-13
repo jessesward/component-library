@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Component Library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Even though this is a React app, the individual components are not React specific.
+
+For the most part, each component/page is standalone, but they do share scripts from the utils directory. The utils directory is also where you can find helpful things like functions to calculate the distance between two points.
+
 
 ## Available Scripts
 
