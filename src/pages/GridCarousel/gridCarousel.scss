@@ -1,0 +1,29 @@
+.page {
+  background: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.logo-grid-carousel {
+  width: 100%;
+  .carousel {
+    overflow: hidden;
+  }
+  .grid-wrapper {
+    display: flex;
+    width: max-content;
+    will-change: transform;
+  }
+  .grid-column {
+    width: 20vw;
+  }
+  .grid-row {
+    padding: 15%;
+    img {
+      width: 100%;
+      transition: opacity 300ms ease, filter 300ms ease;
+      will-change: opacity;
+    }
+  }
+}
